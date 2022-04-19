@@ -1,7 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
 
 
 import numpy as np 
@@ -127,10 +123,5 @@ plt.xlabel('Predicted label')
 
 #print out table with specific ratios
 print(classification_report(y_test, y_pred_test))
-
-
-# In[ ]:
-
-
 
 
